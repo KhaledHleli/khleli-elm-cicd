@@ -25,5 +25,5 @@ jobs:
           scan-type: image
           image-ref: ghcr.io/khaledhleli/khleli-elm-cicd:latest
           format: table
-          severity: CRITICAL
+          severity: HIGH,CRITICAL
           exit-code: '1'
